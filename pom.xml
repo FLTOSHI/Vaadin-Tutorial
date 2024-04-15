@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!-- Project from https://start.vaadin.com/project/251675ba-9b0d-4c4f-8401-680fee1d0ce2 -->
-    <groupId>com.example.application</groupId>
-    <artifactId>flowcrmtutorial</artifactId>
-    <name>flowcrmtutorial</name>
+    <groupId>edu.fltoshi.vaadin</groupId>
+    <artifactId>vaadin</artifactId>
+    <name>vaadin</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -82,6 +82,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
